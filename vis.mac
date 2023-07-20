@@ -1,0 +1,20 @@
+# Макрос файл для настройки интерфейса программы
+
+/vis/open OGL
+/vis/viewer/set/viewpointVector 0 1 -1
+/vis/drawVolume
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+
+# Цвет фона - белый
+/vis/viewer/set/background 255 255 255
+
+# Установка стандартного цвета - черный (рамки мира)
+/vis/viewer/set/defaultColour 0 0 0
+
+# Установка толщины линий
+/vis/viewer/set/globalLineWidthScale 2
+
+# Установка цвета текста
+/vis/viewer/set/defaultTextColour 0 0 0

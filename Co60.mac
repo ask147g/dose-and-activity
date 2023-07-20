@@ -1,0 +1,26 @@
+# Источник 1
+/gps/particle gamma
+/gps/ene/type Mono
+/gps/ene/mono 1.1732 MeV 
+/gps/pos/type Point
+/gps/pos/centre -10 0 0 cm
+/gps/ang/type iso
+/gps/ang/mintheta 45 degree
+/gps/ang/maxtheta 135 degree
+/gps/ang/minphi 135 degree
+/gps/ang/maxphi 225 degree
+
+# Источник 2
+/gps/source/add 2
+/gps/particle gamma
+/gps/ene/type Mono
+/gps/ene/mono 1.3325 MeV 
+/gps/pos/type Point
+/gps/pos/centre -10 0 0 cm
+/gps/ang/type iso
+/gps/ang/mintheta 45 degree
+/gps/ang/maxtheta 135 degree
+/gps/ang/minphi 135 degree
+/gps/ang/maxphi 225 degree
+
+/run/beamOn 20000000
